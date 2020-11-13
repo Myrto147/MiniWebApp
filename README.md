@@ -49,3 +49,10 @@ Here is your key: 9758597e
 Please append it to all of your API requests,
 
 OMDb API: http://www.omdbapi.com/?i=tt3896198&apikey=9758597e
+
+## ΜΕΛΗ
+
+* **Μιχαλακάκου Κωνσταντίνα** - *3150111* - [K Mih](https://github.com/Kapamih)
+* **Παπαδήμα Μυρτώ** - *3150135* - [MyrtPap](https://github.com/Myrto147)
+
+Ομαδική εργασία στα πλαίσια του μαθήματος "Τεχνολογίες και Προγραμματισμός Εφαρμογών στον Ιστο 2020".
