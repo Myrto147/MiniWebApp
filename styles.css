@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(255,255,255);
+    height:100%;
+}
+
+.wrapper{
+    width: 100%;
+    padding: 0 0px;
+    margin: 0 auto;
+}
+
+header img{
+    position: relative;
+}
+
+
+header{
+    background-color: rgb(252,210,230);
+    width: 100%;
+
+}
+
+header nav{
+    float: right;
+    background-color: rgb(252,210,230);
+    margin-bottom: 35px;
+}
+
+header nav li{
+    float: left;
+    list-style-type: none;
+    margin: 10px 20px;
+    padding-top: 30px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+#querybox{
+    height: 20px;
+    margin-left: 7px;
+}
+
+.movie{
+    margin-top: 40px;
+}
+
+footer{    
+    background-color: gainsboro;
+    margin-top: 100px;
+    padding: 20px 0;
+    width:100%;
+    position:fixed;
+    bottom:0;
+}
+
+#footer_form{
+    position:relative;
+
+}
+
+footer:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer ul{
+    float: left;
+    padding: 0;
+    list-style-type: none;
+    width: 43%;
+    margin-right: 2%;
+    margin-left: 2%;
+    text-align: center;
+}
+
+footer li{
+    margin: 10px 0;
+}
+
+.more{
+    color: rgb(62, 50, 238);
+    font-size: small;
+    cursor: pointer;
+
+}
+
+/* mouse over link */
+.more:hover {
+    color: rgb(171, 71, 196);
+    text-decoration: underline;
+}
+
+#more_results{
+    cursor: pointer;
+}
+
+#more_results:hover{
+    color: rgb(64, 35, 71);
+    text-decoration: none;
+    
+}
+
+/* form style */
+.form-container{
+    height: 100%;
+    width: 100%;
+
+}
+
+.form-box{
+    top:8%;
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 30px auto;
+    padding: 5%;
+    background-color: rgb(255, 235, 245);
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+
+.btn-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 25px 9px rgb(253, 200, 226);
+    color: rgb(252,210,230);
+    border-radius: 30px;
+}
+
+.toogle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #502c3d, #d45e97);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.input-group{
+    top: 190px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #502c3d;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #502c3d, #d45e97);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box{
+    margin: 30px 10px 30px 0px;
+}
+
+.input-group span{
+    color: #502c3d;
+    font-size: 12px;
+    bottom: 63px;
+    position: absolute;
+}
+
+#login{
+    margin-left: 70px;
+    margin-top: 25px;
+    left: 60px;
+}
+
+#register{
+    margin-left: 70px;
+    margin-top: 25px;
+    left: 600px;
+}
+
+.movie{
+    position: relative;
+}
+
+.bookmark_btn{
+    position: absolute;
+    left:0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*large tablet screen*/
+@media screen and (max-width: 1300px){
+    #login{
+        margin-left: 40px;
+        margin-top: 25px;
+        left: 60px;
+    }
+    
+    #register{
+        margin-left: 40px;
+        margin-top: 25px;
+        left: 600px;
+    }
+}
+
+/*mid tablet screen*/
+@media screen and (max-width: 680px){
+    #login{
+        margin-left: 20px;
+        margin-top: 10px;
+        left: 60px;
+    }
+    
+    #register{
+        margin-left: 20px;
+        margin-top: 10px;
+        left: 600px;
+    }
+    
+    header nav{
+        width: 100%;
+        background-color: rgb(253,210,230);
+    }
+    
+    header nav ul li{
+         margin: 10px 0;
+        width: 33%;
+        padding: 0;
+        text-align: center;        
+    }
+        
+    #logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+        height: auto;
+    }
+    
+    .page-section{
+        margin-top: 40px;
+    }
+}
+
+/*mobile screen*/
+@media screen and (max-width: 480px){
+    #login{
+        margin-left: 10px;
+        margin-top: 0px;
+        left: 60px;
+    }
+    
+    #register{
+        margin-left: 10px;
+        margin-top: 0px;
+        left: 600px;
+    }
+
+    #logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+    }
+
+    .burger-nav{
+        display:block;
+        height: 40px;
+        width: 100%;
+        background: url(images/burger.png) no-repeat 98% center;
+        cursor: pointer;
+    }
+
+    header .wrapper{
+        width: 100%;
+        padding: 0;
+    }
+
+    header nav ul{
+        overflow: hidden;
+        background: #505050;
+        height:0;
+    }
+    
+
+    header nav ul.open{
+        height:auto;        
+    }
+    
+
+    header nav ul li{
+        float:none;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+    }
+
+    header nav ul li a{
+        color: white;
+        padding: 10px;
+        border-bottom: 1px solid #404040;
+        display: block;
+        margin: 0;
+    }
+
+    
+    footer ul{
+        width: 98%;
+        text-align: center;        
+    }
+    
+    .form-box{
+        width: 280px;
+    }
+    
+    .input-group{
+        top: 150px;
+        width: 220px;
+    }
+    
+    #login{
+        margin-left: 0px;
+    }
+    
+    #register{
+        margin-left: 0px;
+    }
+}

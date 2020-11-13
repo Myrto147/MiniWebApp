@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="el">
+    
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="utf-8">
+    <title>Komy movies</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="jvscrpt.js"></script>
+
+</head>
+
+<body>
+    <header>         
+        <div class="wrapper">
+            <a href="index.html">
+                <img src="images/logo.jpg" id="logo" alt="komy logo" height="100" width= "150"></a>
+            <nav>
+                <a class="burger-nav" ></a>
+                <ul class="nav-links">
+                    <li ><input onkeydown="handleChange()" onkeyup="getanswer(document.getElementById('querybox').value)" id="querybox" placeholder="Search Title"></li>
+                    <li ><a href="bookmarks.html">Bookmarks</a></li>
+                    <li ><a href="form.html">Login</a></li>
+                </ul>
+            </nav>           
+        </div>
+    </header>         
+        
+    <div class="movies-container">
+        
+        <div class="wrapper">
+            
+            <section class="page-section">
+                <div class="grid-container-answer" id="answer">
+                    <!-- query result will show here from js -->
+                    <h1 class='msg'><br><br>Search for a movie..</h1>
+                </div>
+            </section>            
+            
+        </div>
+        
+        <div class="wrapper">
+            <section class="page-section">
+                <div class="grid-container-answer" id="more_answers">
+                    <!-- more result will show here from js -->
+                </div>
+                <div id="more_results" onclick="moreResults(document.getElementById('querybox').value)">
+                </div>
+            </section>
+        </div>
+        
+    </div>
+    
+    <footer id="footer">
+        <div class="wrapper">
+            <ul>
+                <li> Michalakakou Konstantina</li>
+                <li> Papadima Myrto</li>                    
+            </ul>
+            <ul>
+                <li> Web developing and programming</li>
+                <li> &copy; All rights reserved 2020</li>
+            </ul>
+        </div>
+    </footer>
+        
+</body>
+
+
+</html>

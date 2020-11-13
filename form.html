@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="el">
+    
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="utf-8">
+    <title>Login/Register</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="jvscrpt.js"></script>
+</head>
+
+
+<body>
+    
+    <header>         
+        <div class="wrapper">
+            <a href="index.html"><img src="images/logo.jpg" id="logo" alt="komy logo" height="120" width= "170"></a>
+            <nav>
+                <a class="burger-nav"></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li ><a href="bookmarks.html">Bookmarks</a></li>
+                    <li><a href="form.html">Login</a></li>
+                </ul>
+            </nav>           
+        </div>
+    </header>         
+
+    <div class="form-container">
+        <div class="form-box">
+            <div class="btn-box">
+                <div id="btn"></div>
+                <button type="button" class="toogle-btn" onclick="login()">Login</button>
+                <button type="button" class="toogle-btn" onclick="register()">Register</button>
+            </div>  
+            
+            <form id="login" class="input-group">
+                <input type="email" class="input-field" id="mail_log" placeholder="Email" pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" size="30" required>
+                <input type="password" class="input-field" id="password_log" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type = "submit" class="submit-btn">Login</button>
+            </form>
+            
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" id="user" placeholder="Username" required>
+                <input type="email" class="input-field" id="mail_reg" placeholder="Email" pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" size="30" required>
+                <input type="password" class="input-field" id="password_reg" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+                <button type = "submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+    </div>
+        
+    <footer id="footer_form">
+        <div class="wrapper">
+            <ul>
+                <li> Michalakakou Konstantina</li>
+                <li> Papadima Myrto</li>                    
+            </ul>
+            <ul>
+                <li> Web developing and programming</li>
+                <li> &copy; All rights reserved 2020</li>
+            </ul>
+        </div>
+    </footer>
+            
+</body>
+    
+</html>
