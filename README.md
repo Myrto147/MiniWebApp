@@ -1,7 +1,4 @@
 # Mini_Web_App
-Το ακόλουθο API για ταινίες δουλεύει απλά με query params και ένα API key: http://www.omdbapi.com/#usage
-
-Το key το εκδίδει ο καθένας με το mail του. 
 
 ## Front-end
 Η εργασία που καλείστε να υλοποιήσετε αποτελεί μία σελίδα με τα ακόλουθα: 
@@ -44,10 +41,6 @@
 * Τα saves/likes καθώς και τα logins πρέπει να σώζονται στο backend που θα φτιάξετε. Θα δουλεύει δηλαδή συνεργατικά το front-end με το API που δίνεται και το backend που θα φτιάξετε.
 
 ## OMDb API:
-Here is your key: 9758597e
-
-Please append it to all of your API requests,
-
 OMDb API: http://www.omdbapi.com/?i=tt3896198&apikey=9758597e
 
 ## ΜΕΛΗ
